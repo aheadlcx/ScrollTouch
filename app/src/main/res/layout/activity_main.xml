@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtAI"
+            style="@style/txt_common"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item1"
+            android:gravity="center"
+            android:text="Allen Iverson"/>
+
+        <TextView
+            android:id="@+id/txtKB"
+            style="@style/txt_common"
+            android:layout_width="match_parent"
+            android:background="@color/item2"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Kobe Bryant"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:minHeight="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtLBJ"
+            style="@style/txt_common"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item3"
+            android:gravity="center"
+            android:text="LBJ"/>
+
+        <TextView
+            android:id="@+id/txtKD"
+            style="@style/txt_common"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item4"
+            android:gravity="center"
+            android:text="KD"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:minHeight="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTMAC"
+            style="@style/txt_common"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item5"
+            android:gravity="center"
+            android:text="T_MAC"/>
+
+        <TextView
+            android:id="@+id/txtWD"
+            style="@style/txt_common"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item6"
+            android:gravity="center"
+            android:text="WADER"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+<FrameLayout
+    android:id="@+id/content_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></FrameLayout>
+</FrameLayout>
